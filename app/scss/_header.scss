@@ -1,0 +1,72 @@
+.sprite{
+  background: url(../img/sprite.png) no-repeat;
+}
+
+.header{
+  border-bottom: 2px solid #dcdcdc;
+  min-height: 100px;
+  max-width: 1440px;
+  margin: 0 auto;
+  .container-fluid{
+    margin-top: 20px;
+    .logo {
+      width: 70px;
+      height: 70px;
+      background-position: -38px -38px;
+      float: left;
+    }
+    .logo-text{
+      color: #009688;
+      font-size: 21px;
+      line-height: 1;
+      display: block;
+      margin-top: 17px;
+      margin-left: 90px;
+      font-weight: bold;
+    }
+    .main-menu{
+      margin-top: 25px;
+      padding: 0;
+      li{
+        display: inline-block;
+        font-weight: bold;
+        font-size: 15px;
+        height: 36px;
+        margin-right: 15px;
+      }
+      li:hover{
+        cursor: pointer;
+      }
+      .active{
+        color: #009688;
+        border-bottom: 3px solid #009688;
+      }
+    }
+    .header-btn{
+      margin-top: 25px;
+      padding: 0;
+      li{
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin-left: 15px;
+        cursor: pointer;
+        opacity:.5;
+      }
+      .error{
+        background-position: -116px -69px;
+      }
+      .settings{
+        background-position: -141px -69px
+      }
+      .search{
+        background-position: -167px -69px
+      }
+      .profile{
+        background-position: -191px -69px
+      }
+    }
+  }
+
+
+}
